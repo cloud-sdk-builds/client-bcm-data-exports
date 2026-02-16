@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bcm-data-exports`](https://www.npmjs.com/package/@aws-sdk/client-bcm-data-exports/v/3.934.0).
+[`@aws-sdk/client-bcm-data-exports`](https://www.npmjs.com/package/@aws-sdk/client-bcm-data-exports/v/3.935.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.934.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.935.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UEC5Lt2QAGJrTn0bKGvw9WcJ+QjQnwpJ11Oxy4ph8foTtx39I9eQzUp2lk/3sSS7
+sha384-2sL7pHySXXEvlWBYP5qYuMjI/AKUJrAr/Q3VMYgNMyni9iLG1eC2FL3hjY3748qc
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bcm-data-exports": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.934.0/index.min.mjs"
+            "@aws-sdk/client-bcm-data-exports": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.935.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.934.0/index.min.mjs": "sha384-UEC5Lt2QAGJrTn0bKGvw9WcJ+QjQnwpJ11Oxy4ph8foTtx39I9eQzUp2lk/3sSS7"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.935.0/index.min.mjs": "sha384-2sL7pHySXXEvlWBYP5qYuMjI/AKUJrAr/Q3VMYgNMyni9iLG1eC2FL3hjY3748qc"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bcm-data-exports": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.934.0/index.min.mjs"
+                        "@aws-sdk/client-bcm-data-exports": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.935.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.934.0/index.min.mjs": "sha384-UEC5Lt2QAGJrTn0bKGvw9WcJ+QjQnwpJ11Oxy4ph8foTtx39I9eQzUp2lk/3sSS7"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-data-exports@3.935.0/index.min.mjs": "sha384-2sL7pHySXXEvlWBYP5qYuMjI/AKUJrAr/Q3VMYgNMyni9iLG1eC2FL3hjY3748qc"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.934.0`)
+* Always pin to a specific version (`@3.935.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bcm-data-exports/blob/refs/tags/3.934.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bcm-data-exports/blob/refs/tags/3.935.0/LICENSE
 ```
 
 ---
